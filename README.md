@@ -59,14 +59,21 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-Iniciar o backend FastAPI:
+4. Executar o pipeline (uma única vez):
 
 ```bash
-uvicorn app.main:app --reload
+python executar_pipeline.py      # Linux/macOS
+python.exe executar_pipeline.py  # Windows
+```
+
+5. Iniciar o backend FastAPI:
+
+```bash
+uvicorn api:app --reload
 ```
 Acesse: http://127.0.0.1:8000/docs para a documentação automática da API.
 
-Executar o cliente Streamlit (opcional):
+6. Executar o cliente Streamlit (opcional):
 
 ```bash
 streamlit run client/voxnlp_client_streamlit.py
