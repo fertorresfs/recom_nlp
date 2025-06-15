@@ -15,7 +15,7 @@ VoxNLP é uma aplicação assistiva que utiliza inteligência artificial para ap
 ---
 
 ## 🧩 Estrutura do Projeto
-
+```bash
 VoxNLP/
 ├── app/
 │ ├── api/ # Endpoints da API (REST e WebSocket)
@@ -33,7 +33,7 @@ VoxNLP/
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
-
+```
 ---
 
 ## ⚙️ Instalação
