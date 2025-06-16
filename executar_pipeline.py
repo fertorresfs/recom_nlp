@@ -19,7 +19,7 @@ from preprocessamento import (
 #BERTimbau da NeuralMind https://huggingface.co/neuralmind/bert-base-portuguese-cased
 BERT_MODEL_NAME = "neuralmind/bert-base-portuguese-cased"
 ARQUIVO_LEXICO = "lexporbr_alfa_txt.txt" 
-MAX_PALAVRAS = 3000 
+MAX_PALAVRAS = 30000 
 BATCH_SIZE = 32
 
 def main():
