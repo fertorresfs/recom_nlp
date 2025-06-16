@@ -1,3 +1,11 @@
+# ============================================
+# Autor: Fernando Torres Ferreira da Silva
+# Projeto: RecomNLP
+# Versão: 1.0
+# Arquivo: api.py
+# Data: 15/06/2025
+# ============================================
+
 from fastapi import FastAPI, Query
 import uvicorn
 import pickle
