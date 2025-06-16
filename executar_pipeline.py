@@ -1,3 +1,11 @@
+# ============================================
+# Autor: Fernando Torres Ferreira da Silva
+# Projeto: RecomNLP
+# Versão: 1.0
+# Arquivo: executar_pipeline.py
+# Data: 15/06/2025
+# ============================================
+
 import os
 from transformers import AutoTokenizer, AutoModel
 from preprocessamento import (
